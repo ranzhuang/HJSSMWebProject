@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+/Users/ran/Desktop/java/helloSpring/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1063743809.index
+1592875870.index
+4067186920.index

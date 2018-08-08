@@ -1,0 +1,7 @@
+<classpath>
+  <container id="HJFirstSpringmvcWebProject!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="/Users/ran/Desktop/java/helloSpring/HJFirstSpringmvcWebProject/WebContent/WEB-INF/lib/spring-webmvc-5.0.8.RELEASE.jar">
+      <source-attachment-path>/Users/ran/Desktop/java/jar包/各类型jar包/spring-5.0.8/spring-framework-5.0.8.RELEASE/libs/spring-webmvc-5.0.8.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>
