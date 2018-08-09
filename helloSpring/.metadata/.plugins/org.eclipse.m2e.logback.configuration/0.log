@@ -2,3 +2,30 @@
 2018-08-06 11:01:57,423 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-08-06 14:28:35,215 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-08-06 14:32:28,074 [Worker-17: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-09 09:30:37,769 [Framework stop] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/ran/Desktop/java/helloSpring/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_171]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_171]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_171]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_171]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:935) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.stop(MavenPluginActivator.java:302) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_171]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1016) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:359) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:498) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1723) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1642) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:192) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.Module.stop(Module.java:498) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:210) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+2018-08-09 09:31:16,055 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

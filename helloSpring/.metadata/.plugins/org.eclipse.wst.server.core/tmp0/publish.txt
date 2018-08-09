@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Wed Aug 08 14:16:50 CST 2018
+#Thu Aug 09 16:25:14 CST 2018
+org.eclipse.jst.jee.server\:/binary\:/Users/ran/Desktop/HJSSMWebProject/helloSpring/HJFirstSpringmvcAndMybatisWebProject/WebContent/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar=/Users/ran/Library/apache-tomcat-8.5.32/webapps/HJFirstSpringmvcAndMybatisWebProject/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar
 org.eclipse.jst.jee.server\:HJFirstSpringmvcAndMybatisWebProject=/Users/ran/Library/apache-tomcat-8.5.32/webapps/HJFirstSpringmvcAndMybatisWebProject
-org.eclipse.jst.jee.server\:/binary\:/Users/ran/Desktop/java/helloSpring/HJFirstSpringmvcAndMybatisWebProject/WebContent/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar=/Users/ran/Library/apache-tomcat-8.5.32/webapps/HJFirstSpringmvcAndMybatisWebProject/WEB-INF/lib/spring-web-5.0.8.RELEASE.jar

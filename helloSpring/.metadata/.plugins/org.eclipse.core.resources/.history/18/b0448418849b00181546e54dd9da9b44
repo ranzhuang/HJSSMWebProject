@@ -1,0 +1,5 @@
+package cn.huang.ssm.service.impl;
+
+public class HJUserServiceImpl {
+
+}

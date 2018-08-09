@@ -1,0 +1,10 @@
+package cn.huang.ssm.service.impl;
+
+/**
+ * 查询用户
+ * @author ran
+ *
+ */
+public class HJUserServiceImpl {
+
+}
