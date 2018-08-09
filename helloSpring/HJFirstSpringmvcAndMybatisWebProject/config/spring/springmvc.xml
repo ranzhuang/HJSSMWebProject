@@ -18,9 +18,5 @@
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<!-- 开启自动识别扫描 -->
 	<context:component-scan base-package="cn.huang.ssm.controller"></context:component-scan>
-	  <!-- Spring中引入其他配置文件 -->
-    <!--  <import resource="classpath*:/spring/applicationContext-dao.xml" />-->
-    <!--  <import resource="classpath*:/spring/applicationContext-service.xml" />-->
-    <!--  <import resource="classpath*:/spring/applicationContext-transaction.xml" />-->
-    
+	
 </beans>

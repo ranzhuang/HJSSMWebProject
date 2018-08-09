@@ -1,8 +1,6 @@
 INDEX VERSION 1.4+/Users/ran/Desktop/HJSSMWebProject/helloSpring/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
 1057828676.index
 2332182672.index
-1063743809.index
 1592875870.index
-4067186920.index
 3210839186.index
 1589697894.index

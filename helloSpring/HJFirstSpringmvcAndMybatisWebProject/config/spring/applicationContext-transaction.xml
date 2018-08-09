@@ -22,9 +22,9 @@
 </bean>
 
 <!-- 通知 -->
-<!-- <tx:advice id="txAdvice" transaction-manager="transactionManager">
+<tx:advice id="txAdvice" transaction-manager="transactionManager">
 	<tx:attributes>
-		传播行为
+		<!-- 传播行为 -->
 		<tx:method name="save*" propagation="REQUIRED"/>
 		<tx:method name="delete*" propagation="REQUIRED"/>
 		<tx:method name="insert*" propagation="REQUIRED"/>
@@ -33,10 +33,10 @@
 		<tx:method name="get*" propagation="SUPPORTS" read-only="true"/>
 		<tx:method name="select*" propagation="SUPPORTS" read-only="true"/>
 	</tx:attributes>
-</tx:advice> -->
+</tx:advice>
 
 <!-- 配置aop -->
-<!-- <aop:config>
-	<aop:advisor advice-ref="txAdvice" pointcut="excution(cn.huang.ssm.service.impl.*.*(..))"/>
-</aop:config> -->
+<aop:config>
+	<aop:advisor advice-ref="txAdvice" pointcut="execution (* com.sample.service.impl..*.*(..))"/>
+</aop:config>
 </beans>

@@ -1262,3 +1262,9 @@ Caused by: java.util.zip.ZipException: zip file is empty
 
 !ENTRY org.eclipse.wst.server.core 4 0 2018-08-09 16:19:49.511
 !MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-08-09 17:05:52.037
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-08-09 17:10:09.402
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
