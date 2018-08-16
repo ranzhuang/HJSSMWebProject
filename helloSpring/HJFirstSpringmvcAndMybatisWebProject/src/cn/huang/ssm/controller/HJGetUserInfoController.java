@@ -1,8 +1,11 @@
 package cn.huang.ssm.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 
 import cn.huang.ssm.po.HJUserModel;
@@ -13,12 +16,11 @@ public class HJGetUserInfoController {
 	
 	@Autowired
 	private HJUserService userService;
-	
 	@RequestMapping("/getUserInfoList")
-	public void getUserInfoList() throws Exception {
+	@ResponseBody
+	public List<HJUserModel> getUserInfoList() throws Exception {
 		//调用service查找数据
-		System.out.println("成功");
-		java.util.List<HJUserModel> userList = userService.getUserList(null);
-		System.out.println(userList);
+		List<HJUserModel> userList = userService.getUserList(null);
+		return userList;
 	}
 }

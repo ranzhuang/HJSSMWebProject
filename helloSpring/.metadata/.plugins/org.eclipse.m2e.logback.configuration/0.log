@@ -29,3 +29,9 @@ java.io.FileNotFoundException: /Users/ran/Desktop/java/helloSpring/.metadata/.pl
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:210) [org.eclipse.osgi_3.13.0.v20180409-1500.jar:na]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
 2018-08-09 09:31:16,055 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-10 16:36:16,987 [Worker-8: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-10 16:55:36,449 [Worker-28: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar
+2018-08-10 16:56:24,655 [Worker-28: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar
+2018-08-10 17:13:24,224 [Worker-28: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.5.32/tomcat-coyote-8.5.32-sources.jar
+2018-08-10 17:13:27,906 [Worker-28: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-coyote/8.5.32/tomcat-coyote-8.5.32-sources.jar
+2018-08-13 08:55:17,467 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
