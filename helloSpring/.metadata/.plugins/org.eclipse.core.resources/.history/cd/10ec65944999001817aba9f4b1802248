@@ -1,5 +1,0 @@
-package cn.funnyhuang.ssm.registUser.model;
-
-public class HJLoginModel {
-	
-}

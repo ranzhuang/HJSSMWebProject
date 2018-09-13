@@ -1,5 +1,0 @@
-package cn.huang.ssm.service;
-
-public interface HJUserService {
-
-}
